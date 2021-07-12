@@ -12,6 +12,7 @@ const minTemp = document.getElementById("text-temp-min");
 const humidity = document.getElementById("text-humidity");
 const wind = document.getElementById("text-wind");
 const locationInput = document.getElementById("weather-location-input");
+export const buttonLimpiarClick = document.getElementById("button-limpiar");
 
 
 export const updateInteface = (weather: WeatherResponse) :void => {
@@ -33,9 +34,14 @@ export const updateInteface = (weather: WeatherResponse) :void => {
 
 export function getCity(): string {
     if(locationInput) {
+
         return (locationInput as HTMLInputElement).value;
+
+
     }
+ console.log('RPTA:', locationInput)
     return "";
+    
 }
 
 function getDayOfWeek(): string {
