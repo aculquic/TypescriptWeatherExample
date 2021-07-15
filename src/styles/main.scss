@@ -258,10 +258,6 @@ body {
     transform: scale(0.95);
 }
 
-.loading {
-    margin: 10px;
-}
-
 .location-input {
     outline: none;
     width: 100%;
@@ -273,4 +269,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: $text-color-light;
     font-weight: 700;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
 }

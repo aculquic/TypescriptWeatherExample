@@ -10,6 +10,8 @@
         "start:dev": "webpack serve --mode development"
     },
     "devDependencies": {
+        "@types/cli-color": "^2.0.1",
+        "@types/clui": "^0.3.1",
         "css-loader": "^5.2.6",
         "favicons": "^6.2.2",
         "favicons-webpack-plugin": "^5.0.2",
@@ -31,7 +33,10 @@
         "@angular/cli": "^12.1.1",
         "@angular/core": "^12.1.1",
         "bootstrap": "^5.0.2",
+        "clui": "^0.3.6",
         "ng4-loading-spinner": "^1.2.3",
-        "ngx-spinner": "^12.0.0"
+        "ngx-bootstrap-spinner": "^10.0.5",
+        "ngx-spinner": "^12.0.0",
+        "sweetalert2": "^11.0.18"
     }
 }
